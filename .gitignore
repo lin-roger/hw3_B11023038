@@ -1,4 +1,4 @@
 __pycache__/*
 ETT-v3/*
 ETT-v3.7z
-best_weights/*/*.safetensors
+*.safetensors

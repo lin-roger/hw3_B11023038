@@ -22,9 +22,10 @@ def find_bottom(preds):
     for i in range(len(preds)):
         img = preds[i][0]
         height, _ = img.shape
+        tmp.append(height-1)
         for y in range(height - 1, -1, -1):
             if np.any(img[y] == 255):
-                tmp.append(y)
+                tmp[-1] = y
                 break
     return np.array(tmp)
 

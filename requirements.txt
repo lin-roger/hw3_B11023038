@@ -1,2 +1,4 @@
 nnunetv2
 segmentation-models-pytorch
+# lightning
+imgaug
